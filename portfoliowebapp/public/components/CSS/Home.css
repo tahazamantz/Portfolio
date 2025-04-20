@@ -1,0 +1,21 @@
+body{
+               margin: 5pc;
+               padding: 10px;
+}
+h1{
+               font-size: 45px;
+               font-weight: 300;
+               text-indent: 40px;
+
+}
+mark{
+               color: aqua;
+               background: transparent;
+}
+
+h5{
+               line-height: 35px;
+               margin-top: 10px;
+               font-size: 20px;
+               font-weight: 90;
+}

@@ -1,4 +1,10 @@
 body{
-               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-               background: transparent;
+              background: transparent;
+}
+
+img{
+               margin: 5px;
+               padding: 0px;
+               height: 60px;
+               border-radius: 50px;
 }
