@@ -27,6 +27,6 @@ h5{
 
 .main:hover{
                transition: 0.9s;
-               box-shadow: rgb(0, 238, 255) 10px 10px 10px 180px ;
+               box-shadow: linear-gradient(red ,yellow) 220px 500px 330px 183px ;
                border-radius: 70px;
 }
