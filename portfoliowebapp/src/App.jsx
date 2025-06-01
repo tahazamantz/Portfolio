@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from '../public/components/JSX/Navbar.jsx'
 import Home from '../public/components/JSX/Home.jsx'
+import About from '../public/components/JSX/Aboutme.jsx'
 function App() {
   const toggleTheme = () => {
     const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
@@ -12,18 +13,22 @@ function App() {
     <>
     <div className='main'>
     <nav>
-      <Navbar />
-      
+    <h className="h">  Taha Zaman
+    </h>  
     </nav>
-     <div>
+     <div  data-aos="fade-down">
       <Home/>
       <br />
-      <Home/>
-      <Home/>
-      <Home/>
-
+      <About/>
+      
+      
+      
      </div>
+   
     </div> 
+    <div>
+      
+    </div>
     </>
   )
 }

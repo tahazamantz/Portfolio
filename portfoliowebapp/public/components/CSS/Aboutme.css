@@ -1,0 +1,25 @@
+body{
+               margin: auto;
+               padding: auto;
+}
+#h1e{
+               font-weight: 102px;
+}
+h1{
+         font-weight: 22px;   
+         text-align: center;  
+      }
+h2{
+               font-weight: 5px;
+}
+
+.maina{
+               
+               grid-auto-flow: row;
+}
+
+.div1{
+               width: fit-content;
+               background: aqua;
+
+}
