@@ -14,12 +14,18 @@ h2{
 }
 
 .maina{
-               
-               grid-auto-flow: row;
+        display: -moz-grid;  
+        padding-top: 10px; 
+        
+           
 }
 
 .div1{
-               width: fit-content;
-               background: aqua;
+               margin: auto;
+               border-radius: 100px;
+               padding-bottom: 10px;
+            background: aqua;
+            width: min(100%, 800px); /* Never exceeds 800px but shrinks on small screens */
+  height: max(9px, 35vh); /* At least 300px tall, or 50% viewport height */
 
 }
