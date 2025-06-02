@@ -11,11 +11,15 @@ body{
 h1{
                font-size: 45px;
                color: rgb(255, 255, 255);
-               font-weight: 999;
+               font-weight: 900;
                text-indent: 40px;
 
 }
 mark{
+               color: aqua;
+               background: transparent;
+}
+mark:hover{
                color: aqua;
                background: transparent;
 }

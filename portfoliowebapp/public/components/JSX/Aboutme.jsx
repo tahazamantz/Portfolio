@@ -6,31 +6,69 @@ export default function
   return (
     <div className='main'>
       <h1 id='h1e'>
-        My Quality Work
+        My Quality Services
       </h1>
-     <div className='mainam'>
+       <div className='mainam'>
+    
+      <a href="">
+        
           <div className='div1'>
-        <img src="" alt="" />
-        <h1>Graphic-DEsigning </h1>
-        <h2></h2>
-      </div>   <div className='div1'>
-        <img src="" alt="" />
-        <h1>Graphic-DEsigning </h1>
-        <h2></h2>
-      </div>
-          <div className='div'>
-        <img src="" alt="" />
-        <h1>Graphic-DEsigning </h1>
-        <h2></h2>
-      </div>
        
+        <h1 id='h1m'><b>01.</b> Graphic-DEsigning </h1>
+        
+        <br /><h2>
+          "Professional graphic design services for logos, branding, and marketing materials—creative, custom, and high-quality. Fast delivery, clear communication, and 100% satisfaction. Let’s bring your vision to life!"</h2></div>
+
+      </a>
+      <br />
+       
+      <a href="">
+        
           <div className='div1'>
-        <img src="" alt="" />
-        <h1>UI/UX</h1>
-        <h2></h2>
+       
+        <h1 id='h1m'><b>01.</b> Graphic-DEsigning </h1>
+        
+        <br /><h2>
+          "Professional graphic design services for logos, branding, and marketing materials—creative, custom, and high-quality. Fast delivery, clear communication, and 100% satisfaction. Let’s bring your vision to life!"</h2></div>
+
+      </a>
+      <br />
+    
+      <a href="">
+        
+          <div className='div1'>
+       
+        <h1 id='h1m'><b>01.</b> Graphic-DEsigning </h1>
+        
+        <br /><h2>
+          "Professional graphic design services for logos, branding, and marketing materials—creative, custom, and high-quality. Fast delivery, clear communication, and 100% satisfaction. Let’s bring your vision to life!"</h2></div>
+
+      </a>
+    <br />
+      <a href="">
+        
+          <div className='div1'>
+       
+        <h1 id='h1m'><b>01.</b> Graphic-DEsigning </h1>
+        
+        <br /><h2>
+          "Professional graphic design services for logos, branding, and marketing materials—creative, custom, and high-quality. Fast delivery, clear communication, and 100% satisfaction. Let’s bring your vision to life!"</h2></div>
+
+      </a>
+      <br />
+    
+      <a href="">
+        
+          <div className='div1'>
+       
+        <h1 id='h1m'><b>01.</b> Graphic-DEsigning </h1>
+        
+        <br /><h2>
+          "Professional graphic design services for logos, branding, and marketing materials—creative, custom, and high-quality. Fast delivery, clear communication, and 100% satisfaction. Let’s bring your vision to life!"</h2></div>
+
+      </a>
+   
       </div>
-     </div>
-      
     </div>
   )
 }

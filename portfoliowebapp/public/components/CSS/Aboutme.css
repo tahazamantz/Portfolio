@@ -2,30 +2,76 @@ body{
                margin: auto;
                padding: auto;
 }
+
 #h1e{
                font-weight: 102px;
 }
-h1{
-         font-weight: 22px;   
-         text-align: center;  
-      }
-h2{
-               font-weight: 5px;
+a{
+        text-decoration: none;
 }
+h2{
+        margin: 10px;
+        padding: 10px;
+        text-decoration: none;
+               font-weight: 300;
+               font-size: 150%;
+               color: aliceblue;
+}
+mark{   margin: 1px;
+        padding: 1px;
+      }
 
-.maina{
-        display: -moz-grid;  
-        padding-top: 10px; 
-        
+.mainam{
+        column-gap: 10px;
+        grid-auto-columns: max-content;
            
 }
 
-.div1{
-               margin: auto;
-               border-radius: 100px;
-               padding-bottom: 10px;
-            background: aqua;
-            width: min(100%, 800px); /* Never exceeds 800px but shrinks on small screens */
-  height: max(9px, 35vh); /* At least 300px tall, or 50% viewport height */
+b{
+               color: #ffdddd;
+               font-weight: 900;
+               font-family: Arial, Helvetica, sans;
+               align-self: last baseline;
+               }
+b:hover{
+               color: aqua;
+               font-weight: 900;
+               font-family: Arial, Helvetica, sans;
+               align-self: last baseline;
+               }
 
+
+#h1m{
+        padding: 10px;
+        margin: 3px;
+        font-size: 20px;
+        text-align: left;
 }
+.div1{
+        text-decoration: none;
+
+        font-size: 10px;
+        margin: 1px;
+        align-content: center;
+        padding-top:1px;
+                max-height: max-content;
+               border-radius: 50px;
+            background:#222831;
+           height: 200px;
+           transition: 1s;
+}
+
+.div1:hover{
+        text-decoration: none;
+transition: 1s;
+        font-size: 10px;
+        margin: 1px;
+        align-content: center;
+        padding-top: 1px;
+                max-height: max-content;
+               border-radius: 50px;
+           height: 200px;
+                 background: linear-gradient(50deg,aqua, #222831);
+     
+}
+        
