@@ -6,12 +6,47 @@ body {
   src: url("../public/components/fonts/Cybero\ Personal\ Use\ Only.ttf");
 }
 nav {
-  margin-top: -10px;
+  
 }
+.h {
+  font-weight: 600;
+  font-family: "Cyber";
+  font-size: 35px;
+ text-shadow: #000;
+ color: aqua;
+}
+
+/* Default: Mobile (< 768px) */
+body { 
+  font-size: 16px; }
+
+/* Tablet (≥ 768px) */
+@media (min-width: 768px) {
+  .container { width: 750px; }
+  
 .h {
   font-weight: 600;
   font-family: "Cyber";
   font-size: 45px;
  text-shadow: #000;
  color: aqua;
+}
+}
+
+/* Desktop (≥ 992px) */
+@media (min-width: 992px) {
+  .container { width: 970px; }
+
+.h {
+  font-weight: 600;
+  font-family: "Cyber";
+  font-size: 45px;
+ text-shadow: #000;
+ color: aqua;
+}
+}
+
+/* Large Desktop (≥ 1200px) */
+@media (min-width: 1200px) {
+  .container { width: 1170px; }
 }

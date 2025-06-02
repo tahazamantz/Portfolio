@@ -9,7 +9,7 @@ body{
               
 }
 h1{
-               font-size: 45px;
+               font-size: 24px;
                color: rgb(255, 255, 255);
                font-weight: 900;
                text-indent: 40px;
@@ -30,22 +30,25 @@ br{
 h4{
                color: aliceblue;
                font-weight: 100;
-               padding-bottom: 60px;
+               font-size: 15px;
+               padding-bottom: 5pc;
+               margin: 1pc;
 }
 h5{
 
                margin-top: 10px;
                padding-top: 100px;
-               padding-bottom: 5/0px;
+               padding-bottom: 5px;
                line-height: 35px;
                margin-top: 10px;
-               font-size: 31px;
+               font-size: 25px;
                font-weight: 20;
                color: rgb(255, 255, 255);
 }
-.main{ transition: 0.8s;
-               margin: 1.6pc;
-               padding: 1pc;
+.main{
+                transition: 0.8s;
+               margin: 10px;
+               padding: 1px;
                border-radius: 50px;               
 }
 
@@ -74,7 +77,7 @@ h5{
 }
 .btn:hover{
                border: 10px black;
-               border-radius: 5px;
+                border-radius: 5px;
                height: 3pc;
                float: right;
                padding-bottom: 10px;
@@ -87,4 +90,300 @@ h5{
                font-weight: 1000;
                padding-top: 10px;
 
+}
+
+/* Tablet (≥ 768px) */
+@media (min-width: 768px) {
+               body{
+               margin: 3pc;
+               background-color: #222831;
+               padding: 10px;
+               scroll-padding: 1121px;
+               scrollbar-width: 10px;
+               scroll-snap-type: proximity;
+               scroll-behavior: smooth;
+              
+}
+h1{
+               font-size: 35px;
+               color: rgb(255, 255, 255);
+               font-weight: 900;
+               text-indent: 40px;
+
+}
+mark{
+               color: aqua;
+               background: transparent;
+}
+mark:hover{
+               color: aqua;
+               background: transparent;
+}
+br{
+               margin: 10px;
+               padding: 100px;
+}
+h4{
+               color: aliceblue;
+               font-weight: 100;
+               font-size: 20px;
+               padding-bottom: 5pc;
+               margin: 2pc;
+}
+h5{
+
+               margin-top: 10px;
+               padding-top: 50px;
+               padding-bottom: -10px;
+               line-height: 35px;
+               margin: 10px;
+               font-size: 35px;
+               font-weight: 20;
+               color: rgb(255, 255, 255);
+}
+.main{
+                transition: 0.8s;
+               margin: 10px;
+               padding: 30px;
+               border-radius: 50px;               
+}
+
+
+.main:hover{
+               transition: 0.9s;
+               box-shadow: #00FFDE 220px 500px 330px 183px ;
+               border-radius: 70px;
+}
+.btn{
+              color: white;
+               border-radius: 100px;
+               height: 3pc;
+               float: right;
+               padding-bottom: 10px;
+               width: fit-content;
+              outline-style: none;
+              border-style: none;
+               background:linear-gradient(169deg, aqua, grey);
+               font-size: 1pc;
+               font-weight: 1000;
+               padding-top: 10px;
+               
+               transition: all 1s;
+
+}
+.btn:hover{
+               border: 10px black;
+                border-radius: 5px;
+               height: 3pc;
+               float: right;
+               padding-bottom: 10px;
+               width: fit-content;
+              outline-style: none;
+              border-style: none;
+              box-shadow: #00FFDE 2px 2px 10px 3px;
+               background:linear-gradient(98deg, aqua, grey);
+               font-size: 1pc;
+               font-weight: 1000;
+               padding-top: 10px;
+}
+  
+.h {
+  font-weight: 600;
+  font-family: "Cyber";
+  font-size: 45px;
+ text-shadow: #000;
+ color: aqua;
+}
+}
+
+/* Desktop (≥ 992px) */
+@media (min-width: 992px) {
+               body{
+               margin: 3pc;
+               background-color: #222831;
+               padding: 10px;
+               scroll-padding: 1121px;
+               scrollbar-width: 10px;
+               scroll-snap-type: proximity;
+               scroll-behavior: smooth;
+              
+}
+h1{
+               font-size: 50px;
+               color: rgb(255, 255, 255);
+               font-weight: 900;
+               text-indent: 40px;
+
+}
+mark{
+               color: aqua;
+               background: transparent;
+}
+mark:hover{
+               color: aqua;
+               background: transparent;
+}
+br{
+               margin: 10px;
+               padding: 100px;
+}
+h4{
+               color: aliceblue;
+               font-weight: 100;
+               font-size: 20px;
+               padding-bottom: 5pc;
+               margin: 1pc;
+}
+h5{
+
+               margin-top: 10px;
+               padding-top: 100px;
+               padding-bottom: 5px;
+               line-height: 35px;
+               margin-top: 10px;
+               font-size: 35px;
+               font-weight: 20;
+               color: rgb(255, 255, 255);
+}
+.main{
+                transition: 0.8s;
+               margin: 10px;
+               padding: 20px;
+               border-radius: 50px;               
+}
+
+
+.main:hover{
+               transition: 0.9s;
+               box-shadow: #00FFDE 220px 500px 330px 183px ;
+               border-radius: 70px;
+}
+.btn{
+              color: white;
+               border-radius: 100px;
+               height: 3pc;
+               float: right;
+               padding-bottom: 10px;
+               width: fit-content;
+              outline-style: none;
+              border-style: none;
+               background:linear-gradient(169deg, aqua, grey);
+               font-size: 1pc;
+               font-weight: 1000;
+               padding-top: 10px;
+               
+               transition: all 1s;
+
+}
+.btn:hover{
+               border: 10px black;
+                border-radius: 5px;
+               height: 3pc;
+               float: right;
+               padding-bottom: 10px;
+               width: fit-content;
+              outline-style: none;
+              border-style: none;
+              box-shadow: #00FFDE 2px 2px 10px 3px;
+               background:linear-gradient(98deg, aqua, grey);
+               font-size: 1pc;
+               font-weight: 1000;
+               padding-top: 10px;
+
+}
+}
+/* Large Desktop (≥ 1200px) */
+@media (min-width: 1200px) {
+               body{
+               margin: 3pc;
+               background-color: #222831;
+               padding: 10px;
+               scroll-padding: 1121px;
+               scrollbar-width: 10px;
+               scroll-snap-type: proximity;
+               scroll-behavior: smooth;
+              
+}
+h1{
+               font-size: 24px;
+               color: rgb(255, 255, 255);
+               font-weight: 900;
+               text-indent: 40px;
+
+}
+mark{
+               color: aqua;
+               background: transparent;
+}
+mark:hover{
+               color: aqua;
+               background: transparent;
+}
+br{
+               margin: 10px;
+               padding: 100px;
+}
+h4{
+               color: aliceblue;
+               font-weight: 100;
+               font-size: 15px;
+               padding-bottom: 5pc;
+               margin: 1pc;
+}
+h5{
+
+               margin-top: 10px;
+               padding-top: 100px;
+               padding-bottom: 5px;
+               line-height: 35px;
+               margin-top: 10px;
+               font-size: 25px;
+               font-weight: 20;
+               color: rgb(255, 255, 255);
+}
+.main{
+                transition: 0.8s;
+               margin: 10px;
+               padding: 1px;
+               border-radius: 50px;               
+}
+
+
+.main:hover{
+               transition: 0.9s;
+               box-shadow: #00FFDE 220px 500px 330px 183px ;
+               border-radius: 70px;
+}
+.btn{
+              color: white;
+               border-radius: 100px;
+               height: 3pc;
+               float: right;
+               padding-bottom: 10px;
+               width: fit-content;
+              outline-style: none;
+              border-style: none;
+               background:linear-gradient(169deg, aqua, grey);
+               font-size: 1pc;
+               font-weight: 1000;
+               padding-top: 10px;
+               
+               transition: all 1s;
+
+}
+.btn:hover{
+               border: 10px black;
+                border-radius: 5px;
+               height: 3pc;
+               float: right;
+               padding-bottom: 10px;
+               width: fit-content;
+              outline-style: none;
+              border-style: none;
+              box-shadow: #00FFDE 2px 2px 10px 3px;
+               background:linear-gradient(98deg, aqua, grey);
+               font-size: 1pc;
+               font-weight: 1000;
+               padding-top: 10px;
+}
 }
