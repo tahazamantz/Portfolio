@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from '../public/components/JSX/Navbar.jsx'
 import Home from '../public/components/JSX/Home.jsx'
 import About from '../public/components/JSX/Aboutme.jsx'
+import Skill from '../public/components/JSX/Skill.jsx'
 function App() {
   const toggleTheme = () => {
     const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
@@ -13,20 +14,23 @@ function App() {
     <>
     <div className='main'>
     <nav>
-    <h className="h">  Taha Zaman
-    </h>  
+    <h1 className="h">  Taha Zaman
+    </h1>  
     </nav>
-     <div  data-aos="fade-down">
+     <div className='appm'>
       <Home/>
       <br />
       <About/>
       
       
-      
      </div>
    
     </div> 
- 
+    <div className='bgm'>
+      <Skill/>
+      </div>     
+      <br />
+      <About/>
     </>
   )
 }

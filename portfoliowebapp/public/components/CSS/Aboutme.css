@@ -1,7 +1,7 @@
 body{
                margin: auto;
                padding: auto;
-}
+        }
 
 #h1e{
                font-weight: 102px;
@@ -22,6 +22,7 @@ mark{   margin: 1px;
       }
 
 .mainam{
+        
         column-gap: 10px;
         grid-auto-columns: max-content;
            
@@ -57,7 +58,7 @@ b:hover{
                 max-height: max-content;
                border-radius: 50px;
             background:#222831;
-           height: 200px;
+           height: fit-content;
            transition: 1s;
 }
 
@@ -71,8 +72,11 @@ transition: 1s;
         padding-top: 1px;
                 max-height: max-content;
                border-radius: 50px;
-           height: 200px;
+           height:fit-content;
                  background: linear-gradient(50deg,aqua, #222831);
      
 }
         
+.main{
+        
+}

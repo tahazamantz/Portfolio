@@ -1,0 +1,62 @@
+#bh{
+               text-align: center;
+               margin: 15px;
+               padding: 50px;
+               font-size: 35px;
+
+
+}
+h2{
+               font-size: 1pc;
+               
+}
+#bh2{
+               text-align: center;
+               margin: 1px;
+               padding: 15px;
+               font-size: 25px;
+
+
+}
+.sm{
+                   border-top: aqua;
+        border-style: solid;
+              background-attachment: fixed;
+               background-repeat: no-repeat;
+               background-image: url("../images//neon-outerspace.jpg");
+}
+.div{
+
+}
+.sm{
+    padding: 10px;
+}
+.divs{
+               border-radius: 15px;
+        border: #ffffff 1px;
+        border-style: solid;
+                   color: white;
+                   text-align: center;
+               transition: 1s;
+}
+
+.divs:hover{
+               backdrop-filter: blur(5px);
+               box-shadow: white 1px 1px 10px 1px;
+               border-radius: 30px;
+               color: aliceblue;
+}
+h3{
+               font-size: 100%;
+}
+.smain2{
+               padding: 1px;
+               display: grid;         
+               grid-template-columns: auto auto auto;
+                
+}
+.hq{
+    text-shadow: orange 10px 10px 10px 10px;
+               padding: 5px;
+               padding-bottom: -10px;
+}
