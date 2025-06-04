@@ -5,3 +5,53 @@ h5{
                font-size: small;
                text-align: center;
 }
+
+
+.cmain{
+
+               margin: 30px;
+               padding-top: 30px;
+               padding: 10px;
+
+}
+
+.cdiv{
+
+}
+
+.maindiv{
+               padding: 10px;
+               display: grid;
+               gap: 10px;
+               align-items: center;
+               grid-template-columns:auto auto auto;
+}
+
+#bt{
+               background: transparent;
+               border-style: none;
+
+}
+h7{
+               color: #000;
+}
+
+.hl{
+               float: left;
+
+               margin: 10px;
+               padding-top: 2px;
+}
+#ac{
+               padding: 10px;
+               height: fit-content;
+               margin: 10px;
+               padding-top: 100px;
+
+
+
+}
+#im{
+               padding: 10px;
+
+}

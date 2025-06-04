@@ -1,14 +1,14 @@
 import React from "react";
 import "../CSS/Skill.css";
 import img1 from "../images/html.png";
-import img2 from "../images/c.png";
+import img2 from "../images/ps.png";
 
 import img3 from "../images/ai.png";
 import img4 from "../images/css.png";
-import img5 from "../images/tw.png";
-import img6 from "../images/c.png";
-import img7 from "../images/w.png";
-import img9 from "../images/b.png";
+import img5 from "../images/r.png";
+import img6 from "../images/r.png";
+import img7 from "../images/tw.png";
+import img9 from "../images/js.png";
 
 function Skill() {
   return (
