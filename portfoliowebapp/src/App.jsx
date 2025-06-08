@@ -6,35 +6,31 @@ import About from "../public/components/JSX/Aboutme.jsx";
 import Skill from "../public/components/JSX/Skill.jsx";
 import Projects from "../public/components/JSX/Projects.jsx";
 import Contact from "../public/components/JSX/Contact.jsx";
+
 function App() {
-  const toggleTheme = () => {
-    const isDark =
-      document.documentElement.getAttribute("data-theme") === "dark";
-    document.documentElement.setAttribute(
-      "data-theme",
-      isDark ? "light" : "dark"
-    );
-    localStorage.setItem("theme", isDark ? "light" : "dark");
-  };
+``
   return (
     <>
-      <div className="main">
+      <div className="app">
         <nav>
-          <h1 className="h"> Taha Zaman</h1>
+          <h1 id="h1"> Taha Zaman</h1>
+      
         </nav>
-        <div className="appm">
+        <br />
+        <div className="main">
           <Home />
           <br />
           <About />
-        </div>
-      </div>
-      <div className="bgm">
         <Skill />
-      </div>
-      <br />
+     <br />
       <Projects />
       <br />
-      <Contact/>
+      <Contact/> <br />
+   <h6>Copyright © 2025T Taha Zaman | All rights reserved.</h6>
+     
+        </div>
+        </div>
+        
     </>
   );
 }

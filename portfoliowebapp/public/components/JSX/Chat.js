@@ -1,5 +1,5 @@
 /*import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+'https://anstaportfolio.firebaseapp.com/__/auth/handlerimport { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
@@ -14,4 +14,38 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-export const db = getFirestore(app);*/
+export const db = getFirestore(app);
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyADXTtRJ7cjrCWDg-ddlNq-ljLTzRnZp8g",
+  authDomain: "anstaportfolio.firebaseapp.com",
+  projectId: "anstaportfolio",
+  storageBucket: "anstaportfolio.firebasestorage.app",
+  messagingSenderId: "713115978235",
+  appId: "1:713115978235:web:72bfd3f20a08d6cfc3e35e",
+  measurementId: "G-NDS3HYTN20"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);*/

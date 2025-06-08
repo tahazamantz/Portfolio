@@ -3,7 +3,9 @@ import '../CSS/Projects.css'
 function Projects() {
   return (
     <div>
-               <h1>Coming Soon!</h1>
+               <h1>Projects</h1>
+               <br />
+               <h3 id=''>Coming Soon!</h3>
     </div>
   )
 }

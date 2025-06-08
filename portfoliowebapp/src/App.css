@@ -1,17 +1,24 @@
 body {
+
   background: #000;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+h6{
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  margin: 20px;
+  font-weight: 100;
+}
+.app {
 }
 
-.bgm{
-  background-repeat: no-repeat;
-  image-orientation: from-image;
-  
-  }
 @font-face {
   font-family: "Cyber";
   src: url("../public/components/fonts/Cybero\ Personal\ Use\ Only.ttf");
 }
-.h {
+#h1 {
   font-weight: 600;
   font-family: "Cyber";
   font-size: 35px;
@@ -25,31 +32,87 @@ body {
 
 /* Tablet (≥ 768px) */
 @media (min-width: 768px) {
-  .container { width: 750px; }
-  
-.h {
+  body {
+  background: #000;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+.app {
+}
+
+@font-face {
+  font-family: "Cyber";
+  src: url("../public/components/fonts/Cybero\ Personal\ Use\ Only.ttf");
+}
+#h1 {
   font-weight: 600;
   font-family: "Cyber";
-  font-size: 45px;
+  font-size: 50px;
  text-shadow: #000;
  color: aqua;
 }
+
+/* Default: Mobile (< 768px) */
+body { 
+  font-size: 16px; }
+
+  
+
 }
 
 /* Desktop (≥ 992px) */
 @media (min-width: 992px) {
   .container { width: 970px; }
 
-.h {
+body {
+  background: #000;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+.app {
+}
+
+@font-face {
+  font-family: "Cyber";
+  src: url("../public/components/fonts/Cybero\ Personal\ Use\ Only.ttf");
+}
+#h1 {
   font-weight: 600;
   font-family: "Cyber";
-  font-size: 45px;
+  font-size: 55px;
  text-shadow: #000;
  color: aqua;
 }
+
+/* Default: Mobile (< 768px) */
+body { 
+  font-size: 16px; }
+
 }
 
 /* Large Desktop (≥ 1200px) */
-@media (min-width: 1200px) {
-  .container { width: 1170px; }
+@media (min-width: 1200px) {body {
+  background: #000;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+.app {
+}
+
+@font-face {
+  font-family: "Cyber";
+  src: url("../public/components/fonts/Cybero\ Personal\ Use\ Only.ttf");
+}
+#h1 {
+  font-weight: 600;
+  font-family: "Cyber";
+  font-size: 65px;
+ text-shadow: #000;
+ color: aqua;
+}
+
+/* Default: Mobile (< 768px) */
+body { 
+  font-size: 16px; }
+
 }
