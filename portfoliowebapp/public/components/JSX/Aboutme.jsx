@@ -1,6 +1,5 @@
 import React from 'react'
 import '../CSS/Aboutme.css'
-import Card from './Card'
 export default function 
 () {
   return (
