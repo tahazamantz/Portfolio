@@ -6,6 +6,7 @@ import imgt from "../images/tt.png";
 import imgl from "../images/lt.png";
 import imglk from "../images/lk.png";
 import imggt from "../images/gt.png";
+
 import imgdc   from "../images/dc.png";
 export default function Contact() {
   const tgm = () => {

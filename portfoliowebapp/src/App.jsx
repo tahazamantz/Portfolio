@@ -6,9 +6,16 @@ import About from "../public/components/JSX/Aboutme.jsx";
 import Skill from "../public/components/JSX/Skill.jsx";
 import Projects from "../public/components/JSX/Projects.jsx";
 import Contact from "../public/components/JSX/Contact.jsx";
-
+import { useEffect } from "react";
+import music from '../public//components/images/bgm.mp3'
 function App() {
-``
+
+  useEffect(() => {
+    const audio = new Audio(music);
+    audio.play();
+    alert("Welcome to my Mobile-First Portfolio Web-App! \n\n\It is under-developing. \n\nFeel free to explore and learn more about me and my work.");
+  }, []);
+
   return (
     <>
       <div className="app">

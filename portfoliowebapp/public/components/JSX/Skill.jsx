@@ -18,7 +18,7 @@ function Skill() {
 
         <a href="" target="blank">
           <div className="divs">
-            <img src={img2} alt="" srcset="" />
+            <img src={img2} alt="" />
             <h1>Adobe Photoshop</h1>
             <h2> Graphic-Designing </h2>
             <br />
@@ -43,7 +43,7 @@ function Skill() {
               operations, shape builder tool, and global color swatches for
               consistent brand applications. I frequently create intricate
               patterns using the seamless pattern maker and gradient mesh tool
-              for realistic vector renderings.{" "}
+              for realistic vector renderings.
             </h2>
           </div>
         </a>
@@ -51,7 +51,7 @@ function Skill() {
         <br />
         <a href="" target="blank">
           <div className="divs">
-            <img src={img1} alt="" srcset="" />
+            <img src={img1} alt=""  />
             <h1>HTML</h1>
             <h2>Web-Development</h2>
 

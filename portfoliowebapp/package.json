@@ -11,12 +11,15 @@
   },
   "dependencies": {
     "@firebase/app-compat": "^0.3.3",
+    "@vercel/static-build": "^2.7.9",
+    "@vitejs/plugin-react": "^4.5.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.5",
     "firebase": "^11.7.3",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "vite-ssr": "^0.17.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
