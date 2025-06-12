@@ -1,8 +1,9 @@
 body {
 
   background: #000;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 
+  margin: auto;
 }
 h6{
   color: #fff;
@@ -10,8 +11,6 @@ h6{
   font-size: 14px;
   margin: 20px;
   font-weight: 100;
-}
-.app {
 }
 
 @font-face {
